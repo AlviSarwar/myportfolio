@@ -153,7 +153,7 @@ section {
     border-radius: 50%;
     object-fit: cover;
     border: 7px solid #000000;
-    max-width: 100%;
+    max-width: 85%;
 }
 
 /* SOCIAL ICONS */
@@ -232,7 +232,7 @@ section {
 .about-img { flex: 0 0 300px; }
 
 .about-img img {
-    width: 100%;
+    width: 85%;
     height: 350px;
     border-radius: 50%;
     object-fit: cover;
