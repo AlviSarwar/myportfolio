@@ -148,12 +148,13 @@ section {
 .home-content h3 { margin-top: 10px; font-weight: normal; color: #000000; }
 
 .home-img img {
-    width: 450px;
-    height: 600px;
+    width: 550px;
+    height: 350px;
     border-radius: 50%;
     object-fit: cover;
     border: 7px solid #000000;
     max-width: 85%;
+     max-height: 100%;
 }
 
 /* SOCIAL ICONS */
