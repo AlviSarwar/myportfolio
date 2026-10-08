@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <title>Md. Alvi Sarwar | Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Md. Alvi Sarwar, a Computer Science undergraduate and aspiring AI engineer: projects, skills, certifications and contact.">
+    <meta name="theme-color" content="#111111">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Md. Alvi Sarwar | Portfolio">
+    <meta property="og:description" content="Computer Science undergraduate, problem solver and aspiring AI engineer.">
+    <meta property="og:image" content="https://alvisarwar.github.io/myportfolio/profile.jpeg">
+    <meta property="og:url" content="https://alvisarwar.github.io/myportfolio/">
     <link rel="icon" type="image/png" href="logo.png">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
@@ -19,14 +26,14 @@
     <input type="checkbox" id="menu-toggle" style="display:none;">
 
     <!-- Hamburger -->
-    <label for="menu-toggle" class="hamburger">
+    <label for="menu-toggle" class="hamburger" aria-label="Toggle navigation menu">
         <span></span>
         <span></span>
         <span></span>
     </label>
 
     <!-- Logo -->
-    <a href="logo.png" class="logo">Md. Alvi Sarwar</a>
+    <a href="#home" class="logo">Md. Alvi Sarwar</a>
     <!-- Sidebar Navigation -->
     <nav>
         <a href="#home" class="nav-link">Home</a>
@@ -34,7 +41,7 @@
         <a href="#skills" class="nav-link">Skills</a>
         <a href="#projects" class="nav-link">Projects</a>
         <a href="#problem-solving" class="nav-link">Problem Solving</a>
-        <a href="#Tools" class="nav-link">Tools & Expertise</a>
+        <a href="#tools" class="nav-link">Tools & Expertise</a>
         <a href="#certifications" class="nav-link">Certifications</a>
         <a href="#education" class="nav-link">Education</a>
         <a href="#contact" class="nav-link">Contact</a>
@@ -44,17 +51,18 @@
     <div class="overlay"></div>
 </header>
 
+<main>
 <!-- HOME -->
 <section id="home" class="home">
     <div class="home-content">
         <h1>Hi, I'm <span>Alvi</span></h1>
         <h3>Computer Science Undergraduate | Problem Solver | Aspiring AI Engineer</h3>
         <div class="social-icons">
-            <a href="https://www.linkedin.com/in/md-alvi-sarwar-08a963399/?originalSubdomain=bd" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://github.com/AlviSarwar" target="_blank"><i class="fa-brands fa-github"></i></a>
-            <a href="https://www.facebook.com/md.alvisarwar/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://www.instagram.com/life_of_image_/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://wa.me/8801854141641" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/in/mdalvisarwar" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+            <a href="https://github.com/AlviSarwar" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/md.alvisarwar/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/life_of_image_/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://wa.me/8801854141641" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a>
         
         </div>
 
@@ -62,7 +70,7 @@
     </div>
 
     <div class="home-img">
-        <img src="profile1.png" alt="Alvi">
+        <img src="profile1.webp" alt="Portrait of Alvi Sarwar">
     </div>
 </section>
 
@@ -73,7 +81,7 @@
 
     <div class="about-container">
         <div class="about-img">
-            <img src="profile.jpeg" alt="Alvi">
+            <img src="profile.jpeg" alt="Alvi Sarwar" loading="lazy">
         </div>
 
         <div class="about-content">
@@ -153,7 +161,7 @@
     <p class="section-tagline">Things I've built with passion and purpose</p>
     <div class="projects-container">
         <div class="project-card">
-            <img src="DATABASE of GrameenBank .png" alt="Project 1">
+            <img loading="lazy" src="DATABASE of GrameenBank .png" alt="Entity-relationship diagram of the Grameen Bank database">
             <div class="project-info">
                 <h3>Grameen Bank Database Management System</h3>
                 <ul class="project-desc">
@@ -163,13 +171,13 @@
                 <li>Applied database indexing concepts </li>
                 </ul>
                 <div class="project-links">
-                    <a href="https://github.com/AlviSarwar/Database-of-Grameen-Bank" target="_blank" class="view-btn">GitHub</a>
-                    <a href="Grameen Bank.pptx" target="_blank" class="view-btn">Live Demo</a>
+                    <a href="https://github.com/AlviSarwar/Database-of-Grameen-Bank" target="_blank" rel="noopener noreferrer" class="view-btn">GitHub</a>
+                    <a href="DATABASE%20of%20GrameenBank%20.png" target="_blank" rel="noopener noreferrer" class="view-btn">View Schema</a>
                 </div>
             </div>
         </div>
         <div class="project-card">
-            <img src="Shopping cart SYS.png" alt="Project 2">
+            <img loading="lazy" src="Shopping cart SYS.png" alt="Shopping Cart Management System">
             <div class="project-info">
                 <h3>Shopping Cart Management System (Java OOP)</h3>
                 <ul class="project-desc">
@@ -179,13 +187,13 @@
                 <li>Applied custom exception handling</li>
                 </ul>
                 <div class="project-links">
-                   <a href="https://github.com/AlviSarwar/Shopping-cart-System" target="_blank" class="view-btn">GitHub</a>
-                    <a href="SHopping Cart SYS.pdf" target="_blank" class="view-btn">Live Demo</a>
+                   <a href="https://github.com/AlviSarwar/Shopping-cart-System" target="_blank" rel="noopener noreferrer" class="view-btn">GitHub</a>
+                    <a href="SHopping Cart SYS.pdf" target="_blank" rel="noopener noreferrer" class="view-btn">Live Demo</a>
                 </div>
             </div>
         </div>
         <div class="project-card">
-            <img src="gaanhub.png" alt="Project 3">
+            <img loading="lazy" src="gaanhub.png" alt="GaanHub music streaming platform">
             <div class="project-info">
                 <h3>GaanHub — Bangladesh's Music Streaming Platform</h3>
                 <ul class="project-desc">
@@ -195,8 +203,8 @@
                 <li>Designed a Spotify-inspired dark UI with responsive layout</li>
                 </ul>
                 <div class="project-links">
-                    <a href="https://github.com/AlviSarwar/GH" target="_blank" class="view-btn">GitHub</a>
-                    <a href="https://github.com/AlviSarwar/GH" target="_blank" class="view-btn">Run Locally</a>
+                    <a href="https://github.com/AlviSarwar/GH" target="_blank" rel="noopener noreferrer" class="view-btn">GitHub</a>
+                    <a href="https://github.com/AlviSarwar/GH" target="_blank" rel="noopener noreferrer" class="view-btn">Run Locally</a>
                 </div>
             </div>
         </div>
@@ -222,7 +230,7 @@
 
 
 <!-- TOOLS & EXPERTISE -->
-<section id="Tools" class="skills">
+<section id="tools" class="skills">
     <h2 class="section-title">Tools & Expertise</h2>
     <p class="section-tagline">The tools I use to get things done</p>
 
@@ -289,75 +297,75 @@
     <p class="section-tagline">Proof of learning & appreciation, one certificate at a time</p>
     <div class="certifications-container">
         <div class="cert-card">
-            <img src="VibeCoding.png" alt="Vibe Coding Certificate">
+            <img loading="lazy" src="VibeCoding.png" alt="Vibe Coding Certificate">
             <div class="cert-info">
                 <h3>AI-Assisted Development</h3>
                 <p>SoloLearn | 2026</p>
-                <a href="VibeCoding.png" target="_blank" class="view-btn">View Full</a>
+                <a href="VibeCoding.png" target="_blank" rel="noopener noreferrer" class="view-btn">View Full</a>
             </div>
         </div>
         <div class="cert-card">
-            <img src="Python Coder.png" alt="Python Certificate">
+            <img loading="lazy" src="Python Coder.png" alt="Python Certificate">
             <div class="cert-info">
                 <h3>Python</h3>
                 <p>Kaggle | 2026</p>
-                <a href="Python Coder.png" target="_blank" class="view-btn">View Full</a>
+                <a href="Python Coder.png" target="_blank" rel="noopener noreferrer" class="view-btn">View Full</a>
             </div>
         </div>
         <div class="cert-card">
-            <img src="ICPC Dhaka Regional.png" alt="Competitive Programming Certificate">
+            <img loading="lazy" src="ICPC Dhaka Regional.png" alt="Competitive Programming Certificate">
             <div class="cert-info">
                 <h3>Competitive Programming</h3>
                 <p>ICPC | 2024</p>
-                <a href="ICPC Dhaka Regional.png" target="_blank" class="view-btn">View Full</a>
+                <a href="ICPC Dhaka Regional.png" target="_blank" rel="noopener noreferrer" class="view-btn">View Full</a>
             </div>
         </div>
         <div class="cert-card">
-            <img src="Engineering Output Size With LLMs.png" alt="LLMs">
+            <img loading="lazy" src="Engineering Output Size With LLMs.png" alt="LLMs">
             <div class="cert-info">
                 <h3>Engineering Output Size With LLMs</h3>
                 <p>CodeSignal | 2025</p>
-                <a href="Engineering Output Size With LLMs.png" target="_blank" class="view-btn">View Full</a>
+                <a href="Engineering Output Size With LLMs.png" target="_blank" rel="noopener noreferrer" class="view-btn">View Full</a>
             </div>
         </div>
         <div class="cert-card">
-            <img src="Format Control in Prompt Engineering.png" alt="Prompt Engineering">
+            <img loading="lazy" src="Format Control in Prompt Engineering.png" alt="Prompt Engineering">
             <div class="cert-info">
                 <h3>Format Control in Prompt Engineering</h3>
                 <p>CodeSignal | 2025</p>
-                <a href="Format Control in Prompt Engineering.png" target="_blank" class="view-btn">View Full</a>
+                <a href="Format Control in Prompt Engineering.png" target="_blank" rel="noopener noreferrer" class="view-btn">View Full</a>
             </div>
         </div>
         <div class="cert-card">
-            <img src="LLMs & Prompting Techniques.png" alt="LLMs">
+            <img loading="lazy" src="LLMs & Prompting Techniques.png" alt="LLMs">
             <div class="cert-info">
                 <h3>LLMs & Prompting Techniques</h3>
                 <p>CodeSignal | 2025</p>
-                <a href="LLMs & Prompting Techniques.png" target="_blank" class="view-btn">View Full</a>
+                <a href="LLMs & Prompting Techniques.png" target="_blank" rel="noopener noreferrer" class="view-btn">View Full</a>
             </div>
         </div>
         <div class="cert-card">
-            <img src="English as a Second Language.png" alt="English">
+            <img loading="lazy" src="English as a Second Language.png" alt="British Council English certificate">
             <div class="cert-info">
                 <h3>English</h3>
                 <p>British Council | 2021</p>
-                <a href="English as a Second Language.png" target="_blank" class="view-btn">View Full</a>
+                <a href="English as a Second Language.png" target="_blank" rel="noopener noreferrer" class="view-btn">View Full</a>
             </div>
         </div>
         <div class="cert-card">
-            <img src="ReferenceReport.png" alt="English">
+            <img loading="lazy" src="ReferenceReport.png" alt="British Council English reference report">
             <div class="cert-info">
                 <h3>English</h3>
                 <p>British Council | 2021</p>
-                <a href="ReferenceReport.png" target="_blank" class="view-btn">View Full</a>
+                <a href="ReferenceReport.png" target="_blank" rel="noopener noreferrer" class="view-btn">View Full</a>
             </div>
         </div>
         <div class="cert-card">
-            <img src="NATIONAL TECH CARNIVAL.jpg" alt="Participation">
+            <img loading="lazy" src="NATIONAL TECH CARNIVAL.jpg" alt="Participation">
             <div class="cert-info">
                 <h3>Participation in National Tech Carnival</h3>
                 <p>NTC | 2025</p>
-                <a href="NATIONAL TECH CARNIVAL.jpg" target="_blank" class="view-btn">View Full</a>
+                <a href="NATIONAL TECH CARNIVAL.jpg" target="_blank" rel="noopener noreferrer" class="view-btn">View Full</a>
             </div>
         </div>
       
@@ -371,17 +379,17 @@
     <p class="section-tagline">My academic journey so far</p>
     <div class="edu-box">
         <h3>Bachelor's in Computer Science & Engineering</h3>
-        <p><a href="https://www.uap-bd.edu/" target="_blank" class="edu-link">University of Asia Pacific</a></p>
+        <p><a href="https://www.uap-bd.edu/" target="_blank" rel="noopener noreferrer" class="edu-link">University of Asia Pacific</a></p>
         <span>2023 - 2027</span>
     </div>
     <div class="edu-box">
         <h3>Higher Secondary Certificate (HSC)</h3>
-        <p><a href="https://hamdardpubliccollege.edu.bd/" target="_blank" class="edu-link">Hamdard Public College</a></p>
+        <p><a href="https://hamdardpubliccollege.edu.bd/" target="_blank" rel="noopener noreferrer" class="edu-link">Hamdard Public College</a></p>
         <span>2020 - 2022</span>
     </div>
     <div class="edu-box">
         <h3>SSC | JSC | PSC</h3>
-        <p><a href="https://idealschoolandcollege.edu.bd/" target="_blank" class="edu-link">Ideal School & College</a></p>
+        <p><a href="https://idealschoolandcollege.edu.bd/" target="_blank" rel="noopener noreferrer" class="edu-link">Ideal School & College</a></p>
         <span>2013 - 2020</span>
     </div>
 </section>
@@ -393,19 +401,18 @@
     <p class="section-tagline">Have an idea? Let's make it happen together</p>
    
    <form action="https://formspree.io/f/mwvnwajd" method="POST">
-    <input type="text" name="name" placeholder="Your Name" required>
-    <input type="email" name="email" placeholder="Your Email" required>
-    <textarea name="message" placeholder="Your Message" required></textarea>
+    <input type="text" name="name" placeholder="Your Name" aria-label="Your name" autocomplete="name" required>
+    <input type="email" name="email" placeholder="Your Email" aria-label="Your email" autocomplete="email" required>
+    <textarea name="message" placeholder="Your Message" aria-label="Your message" required></textarea>
     <button type="submit" class="btn">Send Message</button>
-    <input type="hidden" name="_next" value="https://yourwebsite.com/thankyou.html">
      
 </form>
     <div class="social-icons">
-            <a href="https://www.linkedin.com/in/md-alvi-sarwar-08a963399/?originalSubdomain=bd" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://github.com/AlviSarwar" target="_blank"><i class="fa-brands fa-github"></i></a>
-            <a href="https://www.facebook.com/md.alvisarwar/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://www.instagram.com/life_of_image_/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://wa.me/8801854141641" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/in/mdalvisarwar" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+            <a href="https://github.com/AlviSarwar" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/md.alvisarwar/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/life_of_image_/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://wa.me/8801854141641" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a>
         
         </div>
       
@@ -433,11 +440,22 @@
         </div>
     </div>
 </section>
+</main>
+
 <footer>
     <p>© 2026 Alvi Sarwar | All Rights Reserved</p>
 </footer>
 
-
+<script>
+    // Close the mobile menu after choosing a link or tapping the overlay.
+    (function () {
+        var toggle = document.getElementById('menu-toggle');
+        if (!toggle) return;
+        document.querySelectorAll('nav a, .overlay').forEach(function (el) {
+            el.addEventListener('click', function () { toggle.checked = false; });
+        });
+    })();
+</script>
 
 </body>
 </html>
